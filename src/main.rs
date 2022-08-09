@@ -14,7 +14,7 @@ fn main() {
         ("docker-compose", ""),
         ("duplicate", ""),
         ("exa", "פּ"),
-        ("mix", ""),
+        ("elixir", ""),
         ("fd", ""),
         ("find", ""),
         ("fish", ""),
