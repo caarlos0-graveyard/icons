@@ -69,6 +69,12 @@ fn main() {
     ]);
 
     if let Some(input) = env::args().nth(1) {
+        if input == "all" {
+            for (key, value) in &icons {
+                println!("{0: <20} {1: <10}", key, value);
+            }
+            exit(0);
+        }
         if let Some(icon) = icons.get(input.as_str()) {
             print!("{}", icon)
         }
